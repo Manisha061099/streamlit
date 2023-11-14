@@ -22,4 +22,10 @@ if st.sidebar.button("scatter plot"):
     plt.xlabel("sl",fontsize=15)
     plt.ylabel("trade",fontsize=15)
     st.pyplot(fig)
+
+if st.sidebar.button("show data"):
+    df2=df.head()
+    st.pyplot(fig)
+
+
     
