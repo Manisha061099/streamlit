@@ -2,7 +2,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import pandas as pd
 df=pd.read_csv("data.csv")
-st.title("Manisha's Data Analytics")
+st.markdown('<span style="color:red">"Manisha's Data Analytics"</span>)
 
 if st.sidebar.button("load dataset"):
     st.write(df)
