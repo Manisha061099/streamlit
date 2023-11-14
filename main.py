@@ -24,8 +24,7 @@ if st.sidebar.button("scatter plot"):
     st.pyplot(fig)
 
 if st.sidebar.button("show data"):
-    df2=df.head()
-    st.pyplot(fig)
-
+    df3=df.sample()
+    st.write(df3)
 
     
