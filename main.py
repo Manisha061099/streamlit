@@ -6,15 +6,11 @@ st.title("Manisha's Data Analytics")
 
 if st.sidebar.button("load dataset"):
     st.write(df)
-
-
-
 if st.sidebar.button("show graph"):
     df2=df.head()
     fig=plt.figure(figsize=(10,8))
     plt.bar(df2['sl'],df2["trade"])
     st.pyplot(fig)
-
 if st.sidebar.button("scatter plot"):
     df2=df.head()
     fig=plt.figure(figsize=(10,8))
@@ -22,9 +18,10 @@ if st.sidebar.button("scatter plot"):
     plt.xlabel("sl",fontsize=15)
     plt.ylabel("trade",fontsize=15)
     st.pyplot(fig)
-
 if st.sidebar.button("show data"):
     df3=df.sample()
     st.write(df3)
+if st.sidebar.button("Contact us"):
+    st.image("mani.jpg")
 
     
