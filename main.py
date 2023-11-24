@@ -22,7 +22,9 @@ if st.sidebar.button("show data"):
     df3=df.sample()
     st.write(df3)
 if st.sidebar.button("Contact us"):
-    st.image("download.jpg" manisha)
+    st.image("download.jpg")
+st.markdown('<span style="color:yellow text-size: 50px">Manisha Data Analytics</span>',unsafe_allow_html=True)
+    
   
 
     
