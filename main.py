@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 df=pd.read_csv("data.csv")
 st.markdown('<span style="color:red">College Student Data Analytics</span>',unsafe_allow_html=True)
-st.markdown('<span style="color:yellow font-size:50px">ADIT Student Data</span>',unsafe_allow_html=True)
+st.markdown('<span style="color:yellow font-size:50px">TradeWise Student Data</span>',unsafe_allow_html=True)
 
 
 if st.sidebar.button("load dataset"):
