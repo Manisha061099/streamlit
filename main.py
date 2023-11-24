@@ -11,14 +11,14 @@ if st.sidebar.button("load dataset"):
 if st.sidebar.button("show graph"):
     df2=df.head()
     fig=plt.figure(figsize=(15,10))
-    plt.bar(df2['sl'],df2["trade"])
+    plt.bar(df2['sl'],df2["Trade"])
     st.pyplot(fig)
 if st.sidebar.button("scatter plot"):
     df2=df.head()
     fig=plt.figure(figsize=(15,10))
     plt.scatter(df2['sl'],df2["trade"])
     plt.xlabel("sl",fontsize=15)
-    plt.ylabel("trade",fontsize=15)
+    plt.ylabel("Trade",fontsize=15)
     st.pyplot(fig)
 if st.sidebar.button("show data"):
     df3=df.sample()
