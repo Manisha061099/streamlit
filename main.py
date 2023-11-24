@@ -2,7 +2,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import pandas as pd
 df=pd.read_csv("data.csv")
-st.markdown('<span style="color:red">Manisha Data Analytics</span>',unsafe_allow_html=True)
+st.markdown('<span style="color:red">NSTI Data Analytics</span>',unsafe_allow_html=True)
 
 if st.sidebar.button("load dataset"):
     st.write(df)
@@ -23,7 +23,7 @@ if st.sidebar.button("show data"):
     st.write(df3)
 if st.sidebar.button("Contact us"):
     st.image("download.jpg")
-st.markdown('<span style="color:yellow text-size: 50px">Manisha Data Analytics</span>',unsafe_allow_html=True)
+st.markdown('<span style="color:yellow font-size:50px">ADIT Student Data</span>',unsafe_allow_html=True)
     
   
 
