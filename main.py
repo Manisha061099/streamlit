@@ -22,7 +22,7 @@ if st.sidebar.button("show data"):
     df3=df.sample()
     st.write(df3)
 if st.sidebar.button("Contact us"):
-    st.image("download.jpg")
-    st.text("Name Manisha")
+    st.image("download.jpg" manisha)
+  
 
     
