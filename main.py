@@ -23,7 +23,7 @@ if st.sidebar.button("show data"):
     st.write(df3)
 if st.sidebar.button("Contact us"):
     st.image("download.jpg")
-st.markdown('<span style="color:yellow font-size:50px">ADIT Student Data</span>',unsafe_allow_html=True)
+    st.markdown('<span style="color:yellow font-size:50px">ADIT Student Data</span>',unsafe_allow_html=True)
     
   
 
