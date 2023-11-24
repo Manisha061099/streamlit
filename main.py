@@ -23,5 +23,6 @@ if st.sidebar.button("show data"):
     st.write(df3)
 if st.sidebar.button("Contact us"):
     st.image("download.jpg")
+    st.text("Name-Manisha")
 
     
